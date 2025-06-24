@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/shayarilogo"
+        android:label="Hindi Shayarii"
+        android:roundIcon="@drawable/shayarilogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App4"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:label="@string/title_activity_main5"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App4" />
+        <activity
+            android:name=".Lec"
+            android:exported="true"
+            android:label="@string/title_activity_lec"
+            android:theme="@style/Theme.App4"></activity>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main4"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App4" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App4" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App4" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Hindi Shayarii"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
